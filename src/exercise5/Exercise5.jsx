@@ -1,4 +1,5 @@
 import React from 'react';
+import Dropdown from './Dropdown';
 
 export default function Exercise5() {
   return (
@@ -13,6 +14,9 @@ export default function Exercise5() {
         <li>Add a click handler called <code>toggleDropdown</code> that makes the content hide/show on click.</li>
         <li>If you have time, try writing a test to verify that the dropdown works as expected.</li>
       </ol>
+      <Dropdown header={<div>Test Header</div>}>
+        Test Content
+      </Dropdown>
     </div>
   );
 }

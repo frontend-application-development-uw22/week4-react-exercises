@@ -1,4 +1,5 @@
 import React from 'react';
+import Orchid from './Orchid';
 
 export default function Exercise2() {
   return (
@@ -12,6 +13,7 @@ export default function Exercise2() {
         <li>Add the prop <code>borderColor</code> to the <code>Orchid</code> component and give the image a border with the color provided.</li>
         <li>Import and render the <code>Orchid</code> component in <code>Exercise2.jsx</code> and provide it a <code>borderColor</code></li>
       </ol>
+      <Orchid borderColor="red" />
     </div>
   );
 }

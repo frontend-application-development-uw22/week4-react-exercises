@@ -1,4 +1,5 @@
 import React from 'react';
+import CoffeeCard from './CoffeeCard';
 
 export default function Exercise1() {
   return (
@@ -11,6 +12,10 @@ export default function Exercise1() {
         <li>Render this component four times in <code>Exercise1.jsx</code> (one for each coffee drink).</li>
         <li>Pass in the correct props.</li>
       </ol>
+      <CoffeeCard price={5} drinkName="americano" />
+      <CoffeeCard price={5} drinkName="espresso" />
+      <CoffeeCard price={5} drinkName="latte" />
+      <CoffeeCard price={5} drinkName="mocha" />
     </div>
   );
 }
